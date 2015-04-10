@@ -16,6 +16,9 @@ public enum EnumDemo2 {
     public String getName() {
         return name;
     }
+    /**
+     * @return
+     */
     public String getValue() {
         return value;
     }

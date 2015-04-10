@@ -15,7 +15,8 @@ public class AnnotationDemoTest {
 	public static void doHello(){
 		System.out.println("This is an annotation example!");
 	}
-	@Deprecated
+	@Deprecated 
+	@AnnotationDemo(check = "do other thing")
 	public static void doOtherthing(){
 		System.out.println("This is normal method!");
 	}

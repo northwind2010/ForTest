@@ -24,7 +24,7 @@ public class trim {
 		set.add(str1);
 		set.add(null);
 		System.out.println(set.contains(str1));;
-		
+		System.out.println();
 		HashMap<String, String> map = new HashMap<String, String>();
 		map.put(null, "123");
 		System.out.println(map.get(null));

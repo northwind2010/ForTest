@@ -1,4 +1,6 @@
 package com.umpay.enum1;
+
+import com.umpay.enum1.EnumTest;
 public enum EnumDemo2 {
 
     Man("lxy","male"),

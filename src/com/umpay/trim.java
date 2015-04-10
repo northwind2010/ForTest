@@ -39,7 +39,7 @@ public class trim {
 	
 	public static void test() throws Exception{
 		System.out.println(i++);
-//		Thread.sleep(1);
+		Thread.sleep(1);
 		trim.test();
 		
 	}

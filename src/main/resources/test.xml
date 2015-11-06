@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<xmlMobile>
+	<payElements>
+		<elementName>bankAccount</elementName>
+		<isEssential>Y</isEssential>
+		<elementId>bankAccount</elementId>
+	</payElements>
+	<payElements>
+		<elementName>身份证</elementName>
+		<isEssential>Y</isEssential>
+		<elementId>cardId</elementId>
+	</payElements>
+	<payElements>
+		<elementName>证件类型</elementName>
+		<isEssential>Y</isEssential>
+		<elementId>cardType</elementId>
+	</payElements>
+	<payElements>
+		<elementName>持卡人姓名</elementName>
+		<isEssential>Y</isEssential>
+		<elementId>payerName</elementId>
+	</payElements>
+	<payElements>
+		<elementName>手机号</elementName>
+		<isEssential>N</isEssential>
+		<elementId>mobileId</elementId>
+	</payElements>
+	<bankId>EBD01039</bankId>
+	<productId>P15X00RZ</productId>
+	<minLmt>-1</minLmt>
+	<reqDate>20151104</reqDate>
+	<maxLmt>-1</maxLmt>
+	<reqTime>103606</reqTime>
+	<merId>25998</merId>
+	<retCode>0000</retCode>
+	<sign>2b559c71b84ff86708df8d6acbef93eb75f0147b</sign>
+	<retMsg>查询成功</retMsg>
+	<rpid>20151104023704</rpid>
+	<funCode>010152</funCode>
+	<bankAccount>4041191234567891</bankAccount>
+	<authMode>100</authMode>
+	<accessType>2</accessType>
+</xmlMobile>

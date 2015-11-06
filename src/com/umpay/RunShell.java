@@ -31,7 +31,7 @@ public class RunShell {
 			String str = "hello\n";
 			out.write(str.getBytes());
 			out.flush();
-			Thread.sleep(10000);
+//			Thread.sleep(1000);
 			count = in.available();
 			System.out.println(in.available());
 			b = new byte[count];
